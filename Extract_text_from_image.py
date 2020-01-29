@@ -65,11 +65,11 @@ def copy_userFrom_and_userTO():
     pyautogui.click(x=380, y=723) # click the copy button
     time.sleep(0.9)
 
-######################################################## Set-up the initial password
+######################################################## Set-up the password
 def setup_initial_password():
-    pyautogui.click(x=198, y=349) # Click the Initial password field
+    pyautogui.click(x=198, y=349) # Click the password field
     time.sleep(0.9)
-    pyautogui.typewrite('PASSWORD', interval=0.1) # type in the innitial password
+    pyautogui.typewrite('PASSWORD', interval=0.1) # type in the password
     pyautogui.press('tab') # press tab to get to the seccong password field
     pyautogui.typewrite('PASSWORD', interval=0.1) # type in the innitial password in the 2nd Field
     time.sleep(0.9)
@@ -86,7 +86,7 @@ def set_personal_details():
     pyautogui.typewrite('First_name', interval=0.1) # type in the First name
     pyautogui.click(x=138, y=591) # Click the E-mail field
     time.sleep(0.9)
-    pyautogui.typewrite('ViorelR@gilat.com', interval=0.1) # type in the E-mail
+    pyautogui.typewrite('USERNAME@EMAIL.COM', interval=0.1) # type in the E-mail
 
 def set_SNC_name():
     pyautogui.click(x=208, y=217) # # Click TAB in Navigation panel
@@ -177,7 +177,7 @@ def get_roles_text_V2():
 
 # take_screenshots()
 # get_cursor_possition()
-############
+# ###########
 # get_smn_module()
 # check_if_needs_to_maximize()
 # user_login() 
@@ -188,8 +188,8 @@ def get_roles_text_V2():
 # set_SNC_name()
 # get_Roles_tab()
 # # all_points()
-# # ############
-get_roles_text_V1()
+# #############
+# get_roles_text_V1()
 # get_roles_text_V2()
 
 
